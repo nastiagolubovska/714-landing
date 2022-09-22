@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AvocadoCafe</title>
+    <link rel="icon" href="img/logo.svg">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+        <img id="header-img" src="img/avocado-cafe.jpg" alt="avocado cafe logo">
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li>
+                    <a class="nav-link" href="#menu">MENU</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#about">ABOUT</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#reservation">RESERVATION</a>
+                </li>
+            </ul>
+        </nav>
+    </header>  
+    <main>
+        <section id="avocado-cafe">
+            <h2>AVOCADO CAFE</h2>
+            <p>Simple and healthy food for all all New Yorkers and guests of the city.</p>
+            <form action="#reservation" method="get" target="_blank"> 
+            <button type="submit">Book a table</button>
+            </form>
+        </section>
+        <div class="container"> 
+        <section id="features">
+            <div class="grid">
+                <div class="icon">
+                    <img class="coffee-icon" src="img/cup-of-coffee-icon.png" alt="cup of coffee">
+                </div>
+                <div class="desc">
+                    <h3>Coffee Menu</h3>
+                    <p>Our coffee is roasted daily in our Roastery for the richest flavor. Every cup is ground fresh in store.</p>
+                    <a href="#menu">OPEN MENU</a>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon">
+                    <img class="drinks-icon" src="img/drinks-icon.png" alt="drinks">
+                </div>
+                <div class="desc">
+                    <h3>Drinks Menu</h3>
+                    <p>Teas, iced drinks, hot chocolate. Everything non-coffee, but still fresh and handcrafted.</p>
+                    <a href="#menu">OPEN MENU</a>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/2dMBNRmeGzc" title="YouTube video player" allowfullscreen>
+            </iframe>
+        </section>
+        <section id="menu">
+            <div class="dishes" id="pizza">
+                <div class="dish-name">Veggie Pizza</div>
+                <h2>$10</h2>
+                <p>(mushrooms, onion, peppers, eggplant, broccoli, tomato, garlic)</p>
+                <button class="btn">Select</button>
+              </div>
+              <div class="dishes" id="soup">
+                <div class="dish-name">Pumpkin Soup</div>
+                <h2>$15</h2>
+                <p>(olive oil, leak, pumpkin, pepitas and sesame seeds, creme fraiche)</p>
+                <button class="btn">Select</button>
+              </div>  
+              <div class="dishes" id="pancakes">
+                <div class="dish-name">Vegan Pancakes</div>
+                <h2>$12</h2>
+                <p>(banana, matcha, spinach, almond milk)</p>
+                <button class="btn">Select</button>
+              </div>  
+        </section>
+        </div>
+    </main>
+    <footer>
+        <div class="logo">
+            <img id="footer-img" src="img/avocado-cafe.jpg" alt="avocado cafe logo">
+        </div>
+        <ul>
+            <li>
+                <a href="#">Contact Us</a>
+                <p id="email">avocadocafe@email.com</p>
+                <p id="number">+1 (234) 567 89 00</p>
+            </li>
+            <li>
+                <a href="#">Working Hours</a>
+                <p id="weekday">Monday-Friday:08:00-22:00</p>
+                <p id="weekend">Saturday-Sunday:10:00-16:00</p>            
+            </li>
+        </ul>
+        <span>© Created by | All rights Reserved</span> 
+    </footer> 
+</body>
+</html>
