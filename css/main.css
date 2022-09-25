@@ -1,0 +1,113 @@
+#avocado-cafe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+    margin-top: 50px;
+    background-color: rgb(238, 209, 206);;
+  }
+
+  #avocado-cafe > h2 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    font-size: 5em;
+    color: #fff!important;
+
+  }
+
+  #name-text {
+    font-weight: bolder;
+    color: black;
+  }
+
+  #avocado-cafe > div {
+    height:3px;
+    width:10%;
+    background-color:#fef3f2;
+  }
+
+  .container {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+   }
+
+  .grid {
+    display: flex;
+  }
+  
+  #features {
+    margin-top: 30px;
+  }
+
+  #features .grid {
+    display: flex;
+    flex-direction: center;
+    justify-content: left;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+    margin-bottom: 50px;
+ }
+
+  #about {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #about > iframe {
+    max-width: 560px;
+    width: 100%;
+  }
+  
+  #menu {
+    margin-top: 60px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+  }
+
+  .dishes {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  
+
+  #menu >.dishes {
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 2px solid #000;
+    border-radius: 3px;
+  }
+  
+  #menu > .dishes {
+    background-color: rgb(238, 209, 206);
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #menu > button {
+    border: 0;
+    margin: 15px 0;
+    font-weight: 400;
+  }
+  
+  #menu > button:hover {
+    background-color: #fff;
+    transition: background-color 1s;
+  }
+   
+   
+ 
