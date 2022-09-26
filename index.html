@@ -31,8 +31,8 @@
         <section id="avocado-cafe">
             <h2 class="name">AVOCADO CAFE</h2>
             <p id="name-text">Simple and healthy food for all all New Yorkers and guests of the city.</p>
-            <form action="#reservation" method="get" target="_blank"> 
-            <button type="submit">Book a table</button>
+            <form class="reservation" action="#reservation" method="get" target="_blank"> 
+            <button id="booking" type="submit">Book a table</button>
             </form>
         </section>
         <div class="container"> 
@@ -44,7 +44,7 @@
                 <div class="desc">
                     <h3>Coffee Menu</h3>
                     <p class="desription">Our coffee is roasted daily in our Roastery for the richest flavor. Every cup is ground fresh in store.</p>
-                    <a href="#menu">OPEN MENU</a>
+                    <a class= "open-menu" href="#menu">OPEN MENU</a>
                 </div>
             </div>
             <div class="grid">
@@ -54,7 +54,7 @@
                 <div class="desc">
                     <h3>Food Menu</h3>
                     <p class="description">We use fresh, authentic ingredients to create good, uncomplicated food. Served all day, every day.</p>
-                    <a href="#menu">OPEN MENU</a>
+                    <a class= "open-menu" href="#menu">OPEN MENU</a>
                 </div>
             </div>
             <div class="grid">
@@ -64,7 +64,7 @@
                 <div class="desc">
                     <h3>Drinks Menu</h3>
                     <p class="description">Teas, iced drinks, hot chocolate. Everything non-coffee, but still fresh and handcrafted.</p>
-                    <a href="#menu">OPEN MENU</a>
+                    <a class= "open-menu" href="#menu">OPEN MENU</a>
                 </div>
         </section>
         <section id="about">
@@ -94,22 +94,18 @@
         </div>
     </main>
     <footer>
-        <div class="logo">
-            <img id="footer-img" src="img/avocado-cafe.jpg" alt="avocado cafe logo">
-        </div>
+        <div class="information">
+        <div class="footer-block">
         <ul>
-            <li>
-                <a href="#">Contact Us</a>
+            <li class="li-block">
+                <a class="ul-heading" href="#">Contact Us</a>
                 <p id="email">avocadocafe@email.com</p>
                 <p id="number">+1 (234) 567 89 00</p>
             </li>
-            <li>
-                <a href="#">Working Hours</a>
-                <p id="weekday">Monday-Friday:08:00-22:00</p>
-                <p id="weekend">Saturday-Sunday:10:00-16:00</p>            
-            </li>
         </ul>
-        <span>© Created by | All rights Reserved</span> 
+        </div>
+        <span>© Created by | All rights Reserved</span>
+        </div>
     </footer> 
 </body>
 </html>
